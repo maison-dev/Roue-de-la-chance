@@ -105,7 +105,7 @@ export default function App() {
   const canSpin = categories.length >= 2;
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="h-full flex flex-col overflow-hidden">
       {/* Header */}
       <header className="flex items-center justify-between p-4 md:p-6">
         {/* Logo / Branding */}
@@ -203,8 +203,8 @@ export default function App() {
 
       </main>
 
-      {/* Footer discret - positionné en bas avec safe-area */}
-      <footer className="pb-safe text-center text-white/25 text-[10px] py-2">
+      {/* Footer discret - positionné en bas */}
+      <footer className="text-center text-white/25 text-[10px] py-1 shrink-0">
         Made by{' '}
         <a 
           href="https://maisondev-tan.vercel.app/" 
