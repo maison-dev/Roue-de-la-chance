@@ -203,8 +203,8 @@ export default function App() {
 
       </main>
 
-      {/* Footer discret - positionné en bas */}
-      <footer className="absolute bottom-1 left-0 right-0 text-center text-white/25 text-[10px]">
+      {/* Footer discret - positionné en bas avec safe-area */}
+      <footer className="pb-safe text-center text-white/25 text-[10px] py-2">
         Made by{' '}
         <a 
           href="https://maisondev-tan.vercel.app/" 
