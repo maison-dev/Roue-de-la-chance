@@ -113,12 +113,6 @@ body {
   }
 }
 
-/* Éviter le zoom iOS sur tous les inputs/selects/textareas */
-@media screen and (max-width: 768px) {
-  input, select, textarea {
-    font-size: 16px !important;
-  }
-}
 
 /* Animation du titre */
 @keyframes float {
